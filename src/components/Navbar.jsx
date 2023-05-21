@@ -15,7 +15,7 @@ function Navbar() {
               <NavLink className="nav-link text-white" to="/users">Usuarios</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-white" to="/tools">Herramientas</NavLink>
+              <NavLink className="nav-link text-white" to="/installations">Instalaciones</NavLink>
             </li>
           </ul>
           <NavLink className="btn btn-outline-light navbar-btn" to="/login">Sign in</NavLink>

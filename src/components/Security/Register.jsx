@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 async function onHandleRegister() {
@@ -19,6 +19,7 @@ async function onHandleRegister() {
     return;
   }
 
+  // eslint-disable-next-line no-unused-vars
   const request = await fetch('http://localhost:8080/api/users', {
     method: 'POST',
     headers: {
@@ -27,7 +28,6 @@ async function onHandleRegister() {
     },
     body: JSON.stringify(data),
   });
-  alert('La cuenta fue creada con éxito');
   window.location.href = '/login';
 }
 
