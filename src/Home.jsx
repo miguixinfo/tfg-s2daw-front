@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import users from './assets/user-3331258_1280.png';
@@ -19,22 +20,22 @@ function Home() {
           <div className="carousel-item active">
             <img src={slide1} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5>¡Toda la información necesaria a un click!</h5>
+              <p>Informáte sobre las nuevas tecnologías del sector de Telecomunicaciones</p>
             </div>
           </div>
           <div className="carousel-item">
             <img src={slide2} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5>¡Páginas de confianza!</h5>
+              <p>Te redirigimos a las mejores páginas con los mejores precios disponibles.</p>
             </div>
           </div>
           <div className="carousel-item">
             <img src={slide3} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5>¡No te vuelvas a preocupar por dispositivos defectuosos!</h5>
+              <p>Garantía en todos los productos del catálogo de nuestros colaboradores.</p>
             </div>
           </div>
         </div>
@@ -47,6 +48,16 @@ function Home() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <div className="container mt-3">
+        <h2 className="text-center">¿Quiénes somos?</h2>
+        <p className="text-center">
+          Soy un alumno de un instituto de Toledo llamado I.E.S Azarquiel. Estoy terminando un ciclo superior de
+          Desarrollo de Aplicaciones Web (DAW). Este instituto se compone de un total de 44 aulas, 6 laboratorios y un gimnasio. Este proyecto viene
+          impulsado por la necesidad de facilitar la instalación del sistema de red Wi-Fi del centro, pues para un espacio tan grande puede llegar
+          a ser tedioso. El fin de la página es facilitar la vida a los técnicos en la búsqueda de información sobre los componentes y dispositivos
+          a utilizar en su trabajo.
+        </p>
+      </div>
 
       <div className="row mt-4">
         <div className="col-md-6">
@@ -56,7 +67,7 @@ function Home() {
           <h3 className="text-center mt-2">Gestión de los usuarios</h3>
           <p className="text-center"> En esta sección se podrá hacer un seguimiento de los usuarios registrados en nuestra web.</p>
           <div className="text-center">
-            <NavLink to="/users" className="btn btn-primary">Acceder</NavLink>
+            <NavLink to="/users" className="btn btn-primary my-3">Acceder</NavLink>
           </div>
         </div>
 
@@ -70,7 +81,7 @@ function Home() {
             de los costes de la instalación de red
           </p>
           <div className="text-center">
-            <NavLink to="/installations" className="btn btn-primary">Acceder</NavLink>
+            <NavLink to="/installations" className="btn btn-primary my-3">Acceder</NavLink>
           </div>
         </div>
       </div>

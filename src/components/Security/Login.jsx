@@ -20,11 +20,11 @@ function Login() {
     if (response.success === 'OK') {
       localStorage.token = response.token;
       localStorage.email = data.email;
-      window.location.href = 'http://127.0.0.1:5173/';
+      window.location.href = 'http://localhost:5173/';
     } else {
       Swal.fire({
-        title: 'Cannot Login',
-        text: 'Check if you are using the correct credentials',
+        title: 'No ha sido posible iniciar sesión',
+        text: 'Comprueba que tus credenciales estén correctamente',
         icon: 'error',
       });
     }

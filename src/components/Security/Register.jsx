@@ -10,10 +10,19 @@ async function onHandleRegister() {
 
   const repeatPassword = document.getElementById('repeatPassword').value;
 
+  if (data.name === '' || data.email === '' || data.password === '') {
+    Swal.fire({
+      title: 'Rellena todos los campos!',
+      text: 'Oops! Parece que te has dejado algún campo vacío',
+      icon: 'info',
+    });
+    return;
+  }
+
   if (repeatPassword !== data.password) {
     Swal.fire({
-      title: 'Check your password',
-      text: 'Maybe your password doesnt match in both fields',
+      title: '¡Comprueba tu contraseña!',
+      text: 'Parece que los campos de contraseña no coinciden',
       icon: 'info',
     });
     return;
