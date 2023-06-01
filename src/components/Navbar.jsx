@@ -17,7 +17,7 @@ function Navbar() {
               <NavLink className="btn btn-outline-light navbar-btn mx-4" to="/users">Usuarios</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="btn btn-outline-light navbar-btn mx-4" to="/installations">Instalaciones</NavLink>
+              <NavLink className="btn btn-outline-light navbar-btn mx-4" to="/tools">Herramientas</NavLink>
             </li>
           </ul>
           <NavLink className="btn btn-outline-light navbar-btn" to="/login">Sign in</NavLink>

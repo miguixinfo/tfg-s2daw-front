@@ -7,6 +7,7 @@ import Login from './components/Security/Login';
 import Register from './components/Security/Register';
 import Footer from './components/Footer';
 import Home from './Home';
+import Tools from './components/Tools/Tools';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/users" element={<Users />} />
+        <Route path="/tools" element={<Tools />} />
         <Route path="*" exact element={<Error />} />
       </Routes>
       <Footer />

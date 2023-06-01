@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import users from './assets/user-3331258_1280.png';
+import users from './assets/users.png';
 import servers from './assets/servidores.jpg';
 import slide1 from './assets/slide1.png';
 import slide2 from './assets/slide2.png';
@@ -75,10 +75,10 @@ function Home() {
           <div className="text-center">
             <img src={servers} alt="Servers" className="img-fluid rounded" />
           </div>
-          <h3 className="text-center mt-2">Instalación del cableado de red</h3>
+          <h3 className="text-center mt-2">Herramientas</h3>
           <p className="text-center">
-            En este apartado será posible indicar los los datos necesarios para sacar una estimación
-            de los costes de la instalación de red
+            En este apartado será posible ver y gestionar las herramientas disponibles para la instalación
+            del sistema de red.
           </p>
           <div className="text-center">
             <NavLink to="/installations" className="btn btn-primary my-3">Acceder</NavLink>
