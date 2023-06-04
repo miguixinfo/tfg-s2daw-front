@@ -40,7 +40,7 @@ function Tools() {
               <p className="card-text">
                 Obligatorio para poder conectar un ordenador a la red y alcanzar la máxima velocidad.
               </p>
-              <NavLink to="/ethernetCable" className="btn btn-primary">Más información</NavLink>
+              <NavLink to="/ethernetCables" className="btn btn-primary">Más información</NavLink>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ function Tools() {
               <p className="card-text">
                 Conector modular para proporcionar una interfaz de conexión para cables de red.
               </p>
-              <NavLink to="/keystoneJack" className="btn btn-primary">Más información</NavLink>
+              <NavLink to="/keystoneJacks" className="btn btn-primary">Más información</NavLink>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ function Tools() {
               <p className="card-text">
                 Dispositivo hardware que se utiliza para permitir que una computadora se conecte a la red.
               </p>
-              <NavLink to="/networkCard" className="btn btn-primary">Más información</NavLink>
+              <NavLink to="/networkCards" className="btn btn-primary">Más información</NavLink>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ function Tools() {
               <p className="card-text">
                 Panel de conexión que permite organizar y administrar los cables de una red de área local.
               </p>
-              <NavLink to="/cableTrays" className="btn btn-primary">Más información</NavLink>
+              <NavLink to="/patchPanels" className="btn btn-primary">Más información</NavLink>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ function Tools() {
               <p className="card-text">
                 Dispositivo que proporciona múltiples salidas de enchufe para conectar y distribuir energía.
               </p>
-              <NavLink to="/cableTrays" className="btn btn-primary">Más información</NavLink>
+              <NavLink to="/powerStrips" className="btn btn-primary">Más información</NavLink>
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@ function Tools() {
               <p className="card-text">
                 Dispositivo que proporciona múltiples salidas de enchufe para conectar y distribuir energía.
               </p>
-              <NavLink to="/cableTrays" className="btn btn-primary">Más información</NavLink>
+              <NavLink to="/switchs" className="btn btn-primary">Más información</NavLink>
             </div>
           </div>
         </div>

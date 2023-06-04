@@ -81,7 +81,7 @@ function Home() {
             del sistema de red.
           </p>
           <div className="text-center">
-            <NavLink to="/installations" className="btn btn-primary my-3">Acceder</NavLink>
+            <NavLink to="/tools" className="btn btn-primary my-3">Acceder</NavLink>
           </div>
         </div>
       </div>
