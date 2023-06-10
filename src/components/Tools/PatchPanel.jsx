@@ -21,7 +21,7 @@ function PatchPanel() {
 
   return (
     <div className="container mt-3">
-      <h2 className="text-center">Cables Ethernet</h2>
+      <h2 className="text-center">Patch Panels</h2>
       <p className="text-center">
         Un Patch Panel, también conocido como panel de conexiones, es un componente utilizado en sistemas de cableado estructurado para redes de comunicación. Consiste en una estructura con múltiples puertos o conectores donde se pueden conectar y organizar los cables de red.
         <br />
